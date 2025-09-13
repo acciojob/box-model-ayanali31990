@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+ .container { 
+	 width: 360px;
+	 margin: 40px auto; 
+	 padding: 16px; 
+	 border: 2px solid #444; 
+	 border-radius: 12px;
+	 text-align: center; 
+	 background-color:grey; /* center inline blocks */ box-sizing: border-box; /* include padding/border in width */ } /* base circle style */ 
+.circle { width: 80px; height: 80px; border-radius: 50%; /* makes the div a circle */ display: inline-block; /* inline layout inside container */ margin: 8px; /* spacing between circles */ } /* color classes */ .red { background-color: red; } .green { background-color: green; } .yellow { background-color: yellow; }
